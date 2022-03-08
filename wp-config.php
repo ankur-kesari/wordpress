@@ -1,4 +1,5 @@
 <?php
+if (strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false)   $_SERVER['HTTPS']='on';
 /**
  * The base configuration for WordPress
  *
